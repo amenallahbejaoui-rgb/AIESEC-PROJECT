@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Konnect"; /* Your custom font name */
+  src: url("./Assets/Fonts/KonnectRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Konnect-bold"; /* Your custom font name */
+  src: url("./Assets/Fonts/KonnectBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Konnect-light"; /* Your custom font name */
+  src: url("./Assets/Fonts/KonnectLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Roboto"; /* Your custom font name */
+  src: url("./Assets/Fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway"; /* Your custom font name */
+  src: url("./Assets/Fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato"; /* Your custom font name */
+  src: url("./Assets/Fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-bold"; /* Your custom font name */
+  src: url("./Assets/Fonts/Lato-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-light"; /* Your custom font name */
+  src: url("./Assets/Fonts/Lato-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ribeye"; /* Your custom font name */
+  src: url("./Assets/Fonts/Ribeye-Regular.ttf") format("truetype");
+}

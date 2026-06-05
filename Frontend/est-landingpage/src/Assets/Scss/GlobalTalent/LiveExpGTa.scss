@@ -1,0 +1,31 @@
+.LiveExpGTa {
+  background-color: #f9f9fb;
+  text-align: center;
+  .text {
+    font-family: "Roboto", sans-serif;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /* Add padding as needed */
+
+    @media (max-width: 768px) {
+      /* Adjust styles for smaller screens */
+      padding: 10px;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 48px;
+      color: #0cb9c1;
+
+      @media (max-width: 768px) {
+        /* Adjust font-size for smaller screens */
+        font-size: 36px;
+      }
+    }
+  }
+  iframe {
+    width: 80%; /* Adjust width as needed */
+    height: 40vw; /* Adjust height as needed */
+    margin-bottom: 3%;
+  }
+}

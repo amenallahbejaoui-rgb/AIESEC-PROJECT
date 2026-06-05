@@ -1,0 +1,84 @@
+.contactPage {
+  margin-top: 10%;
+  .introtext {
+    .title {
+      color: #037ef3;
+      text-align: center;
+      font-family: "Konnect-bold", sans-serif;
+      font-size: 48px;
+    }
+    color: #070f1a;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+  .form {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-top: 80px;
+    width: 60vw;
+    margin-bottom: 40px;
+    .forminput {
+      margin-bottom: 25px;
+    }
+    .forminput-area {
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    .submit {
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+  }
+  .lines {
+    @media (max-width: 768px) {
+      display: none;
+    }
+    .line1 {
+      transform: rotate(-4deg);
+      flex-shrink: 0;
+      position: absolute; /* Change from relative to absolute positioning */
+      right: -10px;
+      top: -3px;
+    }
+    .line2 {
+      transform: rotate(-4deg);
+      flex-shrink: 0;
+      position: absolute; /* Change from relative to absolute positioning */
+      right: -10px;
+      top: -3px;
+    }
+    .line3 {
+      transform: rotate(-4deg);
+      flex-shrink: 0;
+      position: absolute; /* Change from relative to absolute positioning */
+      left: -20px;
+      bottom: -80px;
+    }
+    .line4 {
+      transform: rotate(2deg);
+      flex-shrink: 0;
+      position: absolute; /* Change from relative to absolute positioning */
+      left: -20px;
+      bottom: -80px;
+    }
+  }
+  .regions {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+    .title {
+      font-weight: bold;
+      font-size: 32px;
+    }
+    .sub-title {
+      font-weight: bold;
+      margin-bottom: 2px;
+    }
+    .text {
+      text-decoration: underline;
+    }
+  }
+}

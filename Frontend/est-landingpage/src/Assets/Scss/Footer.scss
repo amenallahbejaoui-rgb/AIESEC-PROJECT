@@ -1,0 +1,28 @@
+.footerbg {
+  background: linear-gradient(
+      0deg,
+      rgba(17, 25, 35, 0.98) 0%,
+      rgba(17, 25, 35, 0.98) 100%
+    ),
+    url("../Images/AIESEC\ HOW\ WHY\ WHO.png"),
+    lightgray 3.709px -35.026px / 100% 289.286% no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  padding: 6% 0;
+  width: 80%;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  .title {
+    color: #037ef3;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  svg {
+    margin-left: 20px;
+  }
+}

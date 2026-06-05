@@ -1,0 +1,50 @@
+.backgroundImageMbr {
+  width: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(3, 126, 243, 0.7) 0%,
+      rgba(3, 126, 243, 0.7) 100%
+    ),
+    url("../../../Assets/Images/membershipbg.jpg") lightgray 50% / cover
+      no-repeat;
+}
+.IntroMembership {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 10%;
+  .centered-container {
+    width: 60%;
+    .mbrlogo {
+      max-width: 60vw;
+      margin-bottom: 2vw;
+    }
+    text-align: center;
+    .textMbr {
+      @media (max-width: 768px) {
+        font-size: 20px;
+      }
+      font-family: "Lato-light", sans-serif;
+      text-align: center;
+      font-size: 30px;
+      color: white;
+      font-weight: lighter;
+      .title {
+        @media (max-width: 768px) {
+          font-size: 25px;
+        }
+        font-weight: bold;
+        font-size: 40px;
+      }
+    }
+  }
+}
+.applybutton {
+  font-family: "Konnect", sans-serif !important;
+  width: 203px;
+  color: #037ef3 !important;
+  padding: 16px 20px 16px 20px !important;
+  margin-top: 10%;
+  margin-bottom: 100px;
+}

@@ -1,0 +1,150 @@
+.Testimonials {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  .carousel-container {
+    margin-top: 70px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    font-family: "Konnect-bold", sans-serif;
+    text-align: center;
+  }
+  .slick-prev {
+    left: 7% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 7% !important;
+    z-index: 1;
+  }
+  .custom-carousel-item {
+    margin: 20px 28%;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    height: 346px;
+    border-radius: 20px 20px 150px 20px;
+    border: 2px solid #037ef3;
+    background: #fff;
+    position: relative;
+    .citation-mark {
+      position: absolute;
+      top: -100px;
+      left: -40px;
+      font-size: 230px;
+      font-family: "Ribeye", sans-serif;
+      color: #037ef3;
+    }
+    &::before {
+      content: " ";
+      position: absolute;
+      z-index: -1;
+      top: 5px;
+      left: 5px;
+      right: -30px;
+      bottom: -16px;
+      border-radius: 20px 20px 150px 20px;
+      border: 2px solid #037ef3;
+    }
+    .profile-info {
+      position: absolute;
+      bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: #037ef3;
+      font-family: "Lato-bold", sans-serif;
+      font-size: 18px;
+    }
+    .profilepic {
+      border-radius: 50%;
+      border: 2px solid #037ef3;
+      width: 70px;
+      height: 70px;
+      margin-right: 10px; /* Add spacing between image and text */
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 0; /* Reset the margin to ensure consistent spacing */
+    }
+
+    .content {
+      font-family: "Lato", sans-serif;
+      font-size: 18px;
+    }
+  }
+  .custom-carousel-item-mobile {
+    margin: 20px 28%;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    padding-bottom: 15%;
+    height: fit-content;
+    border-radius: 20px;
+    border: 2px solid #037ef3;
+    background: #fff;
+    position: relative;
+    .citation-mark {
+      position: absolute;
+      top: -100px;
+      left: -40px;
+      font-size: 230px;
+      font-family: "Ribeye", sans-serif;
+      color: #037ef3;
+    }
+    &::before {
+      content: " ";
+      position: absolute;
+      z-index: -1;
+      top: 5px;
+      left: 5px;
+      right: -30px;
+      bottom: -16px;
+      border-radius: 20px;
+      border: 2px solid #037ef3;
+    }
+    .profile-info {
+      position: absolute;
+      bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: #037ef3;
+      font-family: "Lato-bold", sans-serif;
+      font-size: 18px;
+    }
+    .profilepic {
+      border-radius: 50%;
+      border: 2px solid #037ef3;
+      width: 60px;
+      height: 60px;
+      margin-right: 10px; /* Add spacing between image and text */
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 0; /* Reset the margin to ensure consistent spacing */
+    }
+
+    .content {
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+    }
+  }
+
+  .carousel-image {
+    border-radius: 4%;
+    width: 30% !important;
+  }
+}

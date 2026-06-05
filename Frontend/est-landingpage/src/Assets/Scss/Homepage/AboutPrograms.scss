@@ -1,0 +1,141 @@
+.aboutprograms {
+  background-color: #f9f9fb;
+  position: relative;
+  padding-bottom: 150px;
+  img {
+    width: 60px;
+    margin: 60px 0px;
+  }
+
+  .introtxt {
+    z-index: 1;
+    padding-top: 100px;
+    text-align: center;
+    p:first-child {
+      font-family: "Konnect-bold", sans-serif;
+      font-size: 42px;
+      font-weight: bold;
+    }
+    p:nth-child(2) {
+      font-size: 20px;
+      font-family: "Lato", sans-serif;
+    }
+  }
+  .programs {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 60px;
+    width: 82%;
+    margin: 0 auto; // Center the row
+
+    .product-container {
+      border-radius: 20px;
+      background-color: #ffffff;
+      margin-bottom: 20px;
+      font-size: 12px;
+      padding: 24px;
+      flex-direction: column;
+      align-items: center;
+      .container-GV,
+      .container-GTa,
+      .container-GTe {
+        background-size: cover;
+        width: 256px;
+        height: 173px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .circle-background {
+          width: 100px;
+          height: 100px;
+          background-color: rgba(255, 255, 255, 1);
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+
+          img {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+      }
+
+      .container-GV {
+        background-image: url("../../Images/Volunteer\ Global\ Volunteer.png");
+      }
+
+      .container-GTa {
+        background-image: url("../../Images/Intern\ Global\ Talent.png");
+      }
+
+      .container-GTe {
+        background-image: url("../../Images/Intern\ Global\ Teacher.png");
+      }
+    }
+
+    margin-top: 50px;
+
+    .programtitle {
+      font-family: "Konnect-bold", sans-serif;
+      font-size: 24px;
+      font-weight: bolder;
+      margin-top: 24px;
+    }
+
+    .programcontent {
+      margin-top: 30px;
+      color: #070f1a;
+      font-weight: 400;
+      height: 70px;
+      text-align: center;
+    }
+  }
+
+  .line1 {
+    width: 162px;
+    height: 326px;
+    transform: rotate(-4deg);
+    flex-shrink: 0;
+    position: absolute; /* Change from relative to absolute positioning */
+    left: -10px;
+    bottom: -3px;
+  }
+  .line2 {
+    width: 162px;
+    height: 326px;
+    transform: rotate(-5deg);
+    flex-shrink: 0;
+    position: absolute; /* Change from relative to absolute positioning */
+    left: 5px;
+    bottom: -5px;
+  }
+  .line3 {
+    width: 162px;
+    height: 326px;
+    transform: rotate(-5deg);
+    flex-shrink: 0;
+    position: absolute; /* Change from relative to absolute positioning */
+    right: 16px;
+    top: -5px;
+  }
+  .line4 {
+    width: 162px;
+    height: 326px;
+    transform: rotate(-7deg);
+    flex-shrink: 0;
+    position: absolute; /* Change from relative to absolute positioning */
+    right: 16px;
+    top: -5px;
+  }
+
+  .discover-text {
+    text-decoration: none;
+    color: white;
+  }
+}

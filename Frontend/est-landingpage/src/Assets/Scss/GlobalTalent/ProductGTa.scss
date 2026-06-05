@@ -1,0 +1,46 @@
+.backgroundImageGTa {
+  width: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(12, 185, 193, 0.7) 0%,
+      rgba(12, 185, 193, 0.7) 100%
+    ),
+    url("../../../Assets/Images/Intern Global Talent.png") lightgray 50% / cover
+      no-repeat;
+}
+
+.IntroGTa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+  text-align: center;
+
+  .centered-container {
+    width: 70%;
+
+    .gtalogo {
+      max-width: 80%;
+      margin-bottom: 2%;
+    }
+
+    .text {
+      .title {
+        font-size: 26px;
+      }
+      font-family: "Lato-light", sans-serif;
+      font-size: 18px;
+      color: white;
+      font-weight: lighter;
+    }
+  }
+
+  .applybutton {
+    font-family: "Konnect", sans-serif !important;
+    width: 203px;
+    color: #037ef3 !important;
+    padding: 16px 20px 16px 20px !important;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+}

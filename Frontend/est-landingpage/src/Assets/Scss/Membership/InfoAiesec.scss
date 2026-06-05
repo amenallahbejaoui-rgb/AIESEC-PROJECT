@@ -1,0 +1,44 @@
+.InfoAiesec {
+  padding: 80px 20px;
+  background: #f9f9fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .inner {
+    width: 80%;
+    .infoBlock {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      .title {
+        font-family: "Lato", sans-serif;
+        color: #037ef3;
+        display: inline-block;
+        vertical-align: baseline;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 700;
+      }
+      .content {
+        font-family: "Lato", sans-serif;
+        text-align: center;
+        font-size: 16px;
+      }
+      img {
+        margin-bottom: 30px;
+        width: 30%;
+        height: auto;
+      }
+    }
+    .discover {
+      img {
+        margin-bottom: 30px;
+      }
+    }
+    .challenge {
+      img {
+        margin-bottom: 32px;
+      }
+    }
+  }
+}

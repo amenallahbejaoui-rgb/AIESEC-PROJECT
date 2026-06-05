@@ -1,0 +1,59 @@
+.lines-container {
+  position: relative;
+  .line1 {
+    transform: rotate(12deg);
+    position: absolute;
+    left: -200px;
+    bottom: 0;
+  }
+  .line2 {
+    transform: rotate(12deg);
+    flex-shrink: 0;
+    position: absolute;
+    left: -200px;
+    bottom: -10px;
+  }
+  .line3 {
+    transform: rotate(1deg);
+    position: absolute;
+    right: 0px;
+    bottom: -17px;
+  }
+
+  .line4 {
+    transform: rotate(-6deg);
+    flex-shrink: 0;
+    position: absolute;
+    right: 0px;
+    bottom: -15px;
+  }
+}
+.theProcess {
+  width: 60%;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  margin-bottom: 15px;
+  .title {
+    text-align: center;
+    font-family: "Konnect-bold", sans-serif;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  .processTitle {
+    margin-top: 20px;
+    color: #037ef3;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+  }
+  .processImg {
+    width: 120px;
+  }
+  .sign-up {
+    font-family: "Konnect-light", sans-serif;
+    padding: 10px 26px 10px 26px;
+  }
+}

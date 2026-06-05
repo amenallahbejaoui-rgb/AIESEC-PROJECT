@@ -1,0 +1,35 @@
+.InfoGTe {
+  padding: 80px 20px;
+  .infoBlock {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    .title {
+      font-family: "Lato", sans-serif;
+      font-size: 18px;
+      color: #f48924;
+      display: inline-block;
+      vertical-align: baseline;
+    }
+    .content {
+      font-family: "Lato", sans-serif;
+      text-align: center;
+      font-size: 16px;
+    }
+    img {
+      margin-bottom: 30px;
+      width: 20%;
+      height: auto;
+    }
+  }
+  .discover {
+    img {
+      margin-bottom: 16px;
+    }
+  }
+  .challenge {
+    img {
+      margin-bottom: 32px;
+    }
+  }
+}

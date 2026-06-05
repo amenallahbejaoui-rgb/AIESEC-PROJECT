@@ -1,0 +1,51 @@
+.OurPartners {
+  padding-top: 50px;
+  position: relative;
+  margin-bottom: 50px;
+  .title {
+    text-align: center;
+    font-family: "Konnect-Bold", sans-serif;
+    font-size: 38px;
+    z-index: 1;
+  }
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .carousel {
+      width: 70%;
+    }
+  }
+  .custom-carousel-item {
+    border: 2px solid #d4d4d4;
+    border-radius: 5%;
+    text-align: center;
+    margin: 0 20px;
+    .carouselImages {
+      width: 80%;
+      object-fit: contain;
+      aspect-ratio: 3/2;
+      mix-blend-mode: color-burn;
+    }
+  }
+  .line1 {
+    width: 162px;
+    height: 326px;
+    transform: rotate(-4deg);
+    flex-shrink: 0;
+    position: absolute; /* Change from relative to absolute positioning */
+    left: -40px;
+    bottom: 0px;
+    z-index: -1;
+  }
+  .line2 {
+    width: 162px;
+    height: 326px;
+    transform: rotate(-8deg);
+    flex-shrink: 0;
+    position: absolute; /* Change from relative to absolute positioning */
+    bottom: 0px;
+    left: -60px;
+    z-index: -1;
+  }
+}

@@ -1,0 +1,80 @@
+.events {
+  .loader {
+    margin-left: 48%;
+    margin-right: auto;
+    align-self: center;
+    margin-top: 50px;
+  }
+  margin-top: 80px;
+  .introtext {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    .partners {
+      margin-top: 25px;
+      margin-bottom: 5%;
+    }
+    .title {
+      color: #037ef3;
+      text-align: center;
+      font-family: "Roboto-bold", sans-serif;
+      font-size: 56px;
+      font-weight: 700;
+    }
+    color: #070f1a;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+  .center-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .event-blocs {
+      @media (max-width: 768px) {
+        width: 95%;
+      }
+      width: 60%;
+      font-family: "Roboto", sans-serif;
+      .category {
+        font-weight: bold;
+        margin-top: 24px;
+        font-size: 14px;
+      }
+      .startdate {
+        font-weight: 1000;
+      }
+      .event-title {
+        @media (max-width: 768px) {
+          font-size: 25px;
+        }
+        font-weight: 700;
+        font-size: 36px;
+      }
+      .event-content {
+        font-size: 16px;
+      }
+      .event-image {
+        height: auto;
+        width: auto;
+        align-self: stretch;
+        border-radius: 12px;
+      }
+      .profile-pic {
+        width: 48px;
+      }
+      .name {
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 2px;
+        margin-bottom: 0px;
+      }
+      .event-item {
+        .read {
+          margin-top: 5px;
+        }
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

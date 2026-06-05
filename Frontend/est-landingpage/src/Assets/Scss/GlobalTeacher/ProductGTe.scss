@@ -1,0 +1,59 @@
+.backgroundImageGTe {
+  max-width: 100%;
+  backdrop-filter: blur();
+  background: url("../../../Assets/Images/Intern\ Global\ Teacher.png")
+    lightgray 50%;
+  position: relative;
+  @media (max-width: 768px) {
+    background: #f48924c6; /* Solid color background on mobile */
+  }
+  &::before {
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit; /* Inherit the background image from the parent */
+    filter: blur(5px); /* Adjust the blur amount as needed */
+    z-index: -1; /* Place the pseudo-element behind the content */
+    background-repeat: no-repeat;
+  }
+}
+.IntroGTe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+  text-align: center;
+
+  .centered-container {
+    width: 70%;
+
+    .gtelogo {
+      max-width: 80%;
+      margin-bottom: 2%; // Adjust the max-width as needed
+    }
+
+    .text {
+      font-family: "Lato-light", sans-serif;
+      font-size: 18px;
+      color: white;
+      font-weight: lighter;
+
+      .title {
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+.applybutton {
+  font-family: "Konnect", sans-serif !important;
+  width: 203px;
+  color: #037ef3 !important;
+  padding: 16px 20px 16px 20px !important;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}

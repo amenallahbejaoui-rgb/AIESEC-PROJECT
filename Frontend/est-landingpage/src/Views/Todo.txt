@@ -1,0 +1,2 @@
+TAKE INTO ACCOUNT DAYS AND MONTHS IN READ TIME:
+Frontend\est-landingpage\src\Views\BlogPage\Blogs.js

@@ -1,0 +1,25 @@
+.getToKnow {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  background: url("../../Images/aboutBg.png") center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .content {
+    color: #037ef3;
+    text-align: center;
+    @media (max-width: 768px) {
+      width: 80vw;
+    }
+    width: 50%;
+    .title {
+      @media (max-width: 768px) {
+        font-size: 35px;
+      }
+      font-family: "Lato-bold", sans-serif;
+      font-weight: 900;
+      font-size: 60px;
+    }
+  }
+}

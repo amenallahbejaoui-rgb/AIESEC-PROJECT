@@ -1,0 +1,52 @@
+.blogDetailsLoad {
+  .loader {
+    margin-top: 400px;
+    margin-left: 48%;
+    margin-bottom: 300px;
+    margin-right: auto;
+    align-self: center;
+  }
+  .centerPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .blogDetails {
+      margin-bottom: 5%;
+      margin-top: 5%;
+      width: 90%;
+      font-family: "Roboto", sans-serif;
+      .blogTop {
+        font-size: 16px;
+        .blogCategory {
+          font-weight: 600;
+        }
+        .blogImage {
+          width: 90%;
+          max-width: 980px;
+          border-radius: 10px;
+        }
+        .title {
+          color: #037ef3;
+          margin-top: 5%;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 700;
+        }
+        .details {
+          margin-top: 5%;
+        }
+      }
+      .blogContent {
+        padding: 10%;
+        .blogTitle {
+          @media (max-width: 768px) {
+            font-size: 25px;
+          }
+          font-size: 40px;
+          font-weight: 700;
+          margin: 10px 10px;
+        }
+      }
+    }
+  }
+}

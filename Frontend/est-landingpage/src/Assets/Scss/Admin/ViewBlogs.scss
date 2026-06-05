@@ -1,0 +1,38 @@
+.viewBlogs {
+  .title {
+    text-align: center;
+    font-family: "Konnect-bold", sans-serif;
+    font-size: 60px;
+  }
+  .blogTable {
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    .blogImage {
+      width: 200px;
+    }
+    .actions {
+      margin: 5px 0;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #fff;
+    }
+  }
+}

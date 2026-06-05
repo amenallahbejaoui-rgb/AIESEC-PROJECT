@@ -1,0 +1,25 @@
+.questions {
+  margin-top: 7vw;
+  margin-bottom: 7vw;
+  padding: 0 5%;
+
+  .title {
+    text-align: center;
+    color: #037ef3;
+    font-family: "Lato-bold", sans-serif;
+    font-size: 48px;
+    margin-bottom: 2%;
+  }
+  .text {
+    margin-bottom: 7%;
+    text-align: center;
+  }
+  .contact {
+    font-family: "Roboto", sans-serif;
+    margin-top: 80px;
+    text-align: center;
+    .contact-question {
+      font-weight: bolder;
+    }
+  }
+}

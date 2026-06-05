@@ -1,0 +1,44 @@
+.partnerForm {
+  .title {
+    text-align: center;
+    font-family: "Konnect-bold", sans-serif;
+    font-size: 60px;
+  }
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+.viewPartners {
+  .title {
+    text-align: center;
+    font-family: "Konnect-bold", sans-serif;
+    font-size: 60px;
+  }
+  .partnerTable {
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    .partnerImage {
+      width: 200px;
+    }
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #fff;
+    }
+  }
+}

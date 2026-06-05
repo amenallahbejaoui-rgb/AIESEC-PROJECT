@@ -1,0 +1,43 @@
+.backgroundImageGV {
+  max-width: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(241, 91, 68, 0.8) 0%,
+      rgba(241, 91, 68, 0.8) 100%
+    ),
+    url("../../../Assets/Images/GVProductBG.jpg"),
+    lightgray 80% / cover no-repeat;
+}
+.IntroGV {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+  text-align: center;
+
+  .centered-container {
+    width: 70%;
+
+    .gvlogo {
+      max-width: 80%;
+      margin-bottom: 2%;
+    }
+    .textGv {
+      font-family: "Lato-light", sans-serif;
+      font-size: 18px;
+      color: white;
+      font-weight: lighter;
+      .titleGv {
+        font-size: 26px;
+      }
+    }
+  }
+}
+.applybutton {
+  font-family: "Konnect", sans-serif !important;
+  width: 203px;
+  color: #037ef3 !important;
+  padding: 16px 20px 16px 20px !important;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}

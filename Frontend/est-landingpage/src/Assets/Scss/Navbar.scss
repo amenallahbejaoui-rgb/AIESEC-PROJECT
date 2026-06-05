@@ -1,0 +1,67 @@
+.colorChange {
+  background-color: #111923 !important;
+  padding: 30px 30px;
+  margin: 0 -30px;
+  // color: black !important;
+}
+
+.contact-S {
+  border: 2px solid #037ef2 !important;
+}
+
+.navbarC {
+  transition: background-color 0.3s ease;
+  width: 100%;
+  padding: 0 7% !important;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  height: 100px;
+  top: 0px;
+  background-color: transparent;
+  position: fixed;
+  z-index: 100;
+
+  &.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    padding-top: 8px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .menu-item-dropdown {
+    padding-bottom: -5px;
+  }
+
+  .apply {
+    display: flex;
+    .white {
+      color: white !important;
+    }
+
+    /* Button {
+      font-size: 16px;
+      height: 40px;
+      font-family: "Konnect", sans-serif;
+    } */
+
+    .contact {
+      color: #037ef2;
+    }
+  }
+
+  color: white;
+}
+
+.aieseclogo {
+  position: relative;
+  width: 151px;
+  height: 31px;
+}
